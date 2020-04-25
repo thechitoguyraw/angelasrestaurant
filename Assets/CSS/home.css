@@ -8,10 +8,9 @@ body {
 }
 #hamburger{
     display: none;
-    
 }
 #menuIcon {
-    color: #ce2127
+    color:#ce2127;
 }
 nav {
     width: 100%;
@@ -269,7 +268,6 @@ border-top:  1.5px solid #ce2127;
     }
     #menuIcon {
        padding: 0 10px 2.5px 10px;
-        color: black;
        
         border-radius: 2px;
         border: 1px solid rgba(0,0,0,.2);

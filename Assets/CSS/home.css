@@ -84,7 +84,7 @@ h4 {
     border: 2px solid #ce2127;
     text-align: center;
     padding: 0 0 10px 0;
-    margin: 0 14.7% 0 15%;
+    margin: 0 15.5% 1.5% 15%;
     color: rgb(243, 240, 240);
 }
 button a {
@@ -145,7 +145,7 @@ ul {
     margin: 0 0 0 155px;
     padding: 10px 0 0 0;
 }
-ul li{
+.links{
     
     list-style:  none;
     display: inline-block;
@@ -232,6 +232,27 @@ hr {
 @media only screen and (max-width: 655px) {
    #navlist.togglemenu {
      display: block !important;
+     z-index: 1000;
+     background-color: #f9bd69;
+     position: absolute;
+font-size: 1rem;
+font-style: italic;
+width: 45%;
+height: 335px;
+margin: 14.2% 0 0 55%;
+padding: 100px 0 30px 0;
+border-left: 1.5px solid #ce2127;
+border-top:  1.5px solid #ce2127;
+border-bottom: 1.5px solid #ce2127;
+float: left;
+
+    }
+    .menucss {
+        width: 70%;
+        padding: 10px;
+        letter-spacing: 2px;
+         
+         
     }
     #hamburger{
         
@@ -242,7 +263,8 @@ hr {
     }
     #menuIcon {
        padding: 0 10px 2.5px 10px;
-        color: white;
+        color: black;
+       
         border-radius: 2px;
         border: 1px solid rgba(0,0,0,.2);
         margin-top: 35%;
@@ -261,7 +283,7 @@ hr {
     display: none;
 }
 .carousel{
-    margin: 2% 6% 1% 6%;
+    margin: 3% 6% 1.5% 6%;
 }
 #phone {
     width: 25%;
@@ -279,6 +301,7 @@ hr {
     margin-left: 11%;
     margin-bottom: 2%;
 }
+
 }
 
 
@@ -286,6 +309,20 @@ hr {
 @media only screen and (min-width: 656px) and (max-width:736px) {
     #navlist.togglemenu {
         display: block !important;
+        z-index: 1;
+        background-color: #845d3c;
+        font-size: 1rem;
+        font-style: italic;
+    width: 60%;
+    height: 600px;
+        margin: 0 0 0 40%;
+    padding: 100px 0 30px 0;
+    border-bottom: 1px solid red;
+    float: left;
+    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+
        }
 
     #hamburger{
@@ -297,7 +334,7 @@ hr {
     }
     #menuIcon {
        padding: 0 10px 2.5px 10px;
-        color: white;
+        color: black;
         border-radius: 2px;
         border: 1px solid rgba(0,0,0,.2);
         margin-top: 35%;
@@ -348,6 +385,7 @@ hr {
     #navlist.togglemenu {
         display: block !important;
        }
+       #
     #hamburger{
         
         display: block;
@@ -357,7 +395,7 @@ hr {
     }
     #menuIcon {
        padding: 0 10px 2.5px 10px;
-        color: white;
+        color: black;
         border-radius: 2px;
         border: 1px solid rgba(0,0,0,.2);
         margin-top: 35%;
@@ -485,3 +523,8 @@ hr {
     }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 }
+ ul li {
+      } 
+
+
+

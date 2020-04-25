@@ -1,8 +1,9 @@
 var imgs = ['img/authentic.jpg', 'img/taco.jpg', 'img/authentic.jpg'];
 var time = 3000;
 var i = 0
-var menu = document.querySelector("#navlist")
-var collapse = document.querySelector("#hamburger")
+var menu = document.querySelector("#navlist");
+var menuLi = document.querySelector("#links");
+var collapse = document.querySelector("#hamburger");
 const nav = document.querySelector('#navbar');
 const navSet = nav.offsetTop;
 
@@ -50,4 +51,6 @@ window.onload = changeSlide;
 // }
 collapse.addEventListener('click', function(){
   menu.classList.toggle("togglemenu");
+
+  menuLi.classList.toggle("menucss");
 });

@@ -152,11 +152,11 @@ ul {
     padding: 15px 10px;
     
 }
-Ul li a {
+a {
     text-decoration: none;
     color: #ce2127;
 }
-ul li a:hover {
+ul a li:hover {
     color: white;
 }
 p a {
@@ -237,14 +237,13 @@ hr {
      position: absolute;
 font-size: 1rem;
 font-style: italic;
-width: 50%;
-height: 500px;
-margin: 14.5% 0 0 50%;
-padding: 100px 0 30px 0;
+width: 50vw;
+height: 100vh;
+ margin: 55px 0 0 50%;
+padding: 25% 0 30px 0;
 border-left: 1.5px solid #ce2127;
 border-top:  1.5px solid #ce2127;
-border-bottom: 1.5px solid #ce2127;
-float: left;
+
 
     }
     .menucss {
@@ -253,6 +252,9 @@ float: left;
         letter-spacing: 2px;
          
          
+    }
+    li.links {
+        display: block;
     }
     #hamburger{
         
@@ -309,24 +311,35 @@ float: left;
 @media only screen and (min-width: 656px) and (max-width:736px) {
     #navlist.togglemenu {
         display: block !important;
-        z-index: 1;
-        background-color: #845d3c;
-        font-size: 1rem;
-        font-style: italic;
-    width: 60%;
-    height: 600px;
-        margin: 0 0 0 40%;
-    padding: 100px 0 30px 0;
-    border-bottom: 1px solid red;
-    float: left;
-    align-items: flex-end;
-    align-items: center;
-    justify-content: center;
-
+        z-index: 1000;
+        background-color: #f9bd69;
+        position: fixed;
+   font-size: 1rem;
+   font-style: italic;
+   width: 50vw;
+   height: 100vh;
+   margin: 55px 0 0 50%;
+   
+   padding: 100px 0 30px 0;
+   border-left: 1.5px solid #ce2127;
+   border-top:  1.5px solid #ce2127;
+   
+   
+   
        }
-
+       .menucss {
+           width: 70%;
+           padding: 10px;
+           letter-spacing: 2px;
+            
+            
+       }
+       li.links {
+           display: block;
+       }
+      
     #hamburger{
-        
+        z-index: 1001;
         display: block;
         float: right;
         margin-right: 20px;
@@ -384,6 +397,30 @@ float: left;
 @media only screen and (min-width: 737px) and (max-width: 873px) {
     #navlist.togglemenu {
         display: block !important;
+        z-index: 1000;
+        background-color: #f9bd69;
+        position: absolute;
+   font-size: 1rem;
+   font-style: italic;
+   width: 50vw;
+   height: 100vh;
+   margin: 55px 0 0 50%;
+   padding: 100px 0 30px 0;
+   border-left: 1.5px solid #ce2127;
+   border-top:  1.5px solid #ce2127;
+   
+   
+   
+       }
+       .menucss {
+           width: 70%;
+           padding: 10px;
+           letter-spacing: 2px;
+            
+            
+       }
+       li.links {
+           display: block;
        }
        
     #hamburger{
@@ -481,9 +518,10 @@ float: left;
     #phone {
         width:25%;
     }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-}
+
 @media only screen and (min-width: 941px) and (max-width: 1200px) {
     .red{
         margin-left: 0;
@@ -521,10 +559,7 @@ float: left;
     #phone {
         width: 33%;
     }
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 }
- ul li {
-      } 
-
+ 
 
 

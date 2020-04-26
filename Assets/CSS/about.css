@@ -161,14 +161,16 @@ margin-bottom: 0;
         padding: 10px;
     }
     h3 {
-        color: #ce2127
+        color: #ce2127;
+        font-size: 1rem;
     }
     /* Map */
-    .map {
-         margin: 2% 0 2% 10.5%;
-        
-        
-    }
+   
+   .map {
+       display: block;
+       margin: auto;
+       
+   }
 /* Footer CSS */
 
 footer {

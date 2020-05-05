@@ -225,28 +225,29 @@ footer {
     text-align: center !important;
     height: 150px;
     border-top: 1px solid #ce2127;
+    
 
 }
 
-h6 a {
+footer h4 a {
     color: #f9bd69;
     text-decoration: none;
 
 }
 
-h6 {
+footer h4 {
     font-family: 'Libre Baskerville', serif;
     display: inline-block;
     font-weight: lighter;
     word-spacing: 20px;
     text-transform: uppercase;
     font-size: 1rem;
-    word-spacing: 5rem;
+    word-spacing: 2rem;
     margin-bottom: 0;
 
 }
 
-h5 {
+footer h5 {
     font-family: 'Libre Baskerville', serif;
     display: inline-block;
     font-weight: lighter;
@@ -257,7 +258,7 @@ h5 {
 
 }
 
-h6 a:hover {
+footer h4 a:hover {
     color: white;
 
 }

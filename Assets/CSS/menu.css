@@ -128,20 +128,20 @@ footer {
 
 }
 
-h6 a {
+h4 a {
     color: #f9bd69;
     text-decoration: none;
 
 }
 
-h6 {
+h4 {
     font-family: 'Libre Baskerville', serif;
     display: inline-block;
     font-weight: lighter;
     word-spacing: 20px;
     text-transform: uppercase;
     font-size: 1rem;
-    word-spacing: 5rem;
+    word-spacing: 2rem;
     margin-bottom: 0;
 
 }
@@ -157,7 +157,7 @@ h5 {
 
 }
 
-h6 a:hover {
+h4 a:hover {
     color: white;
 
 }
@@ -185,8 +185,10 @@ hr {
 
 }
 .tabcontainer {
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    height: fit-content;
+    
 }
 button a {
     color: wheat;
@@ -202,11 +204,12 @@ ul#nav-tab {
     width: 100vw;
 }
 button {
+    padding: 0;
     
     font-size: 1rem;
     background-color: #845d3c;
     border: none;
-    width: 50vw;
+    width: 100%;
     height: 6vh;
     border-radius: 0.5px;
 } 
@@ -217,7 +220,19 @@ button.active {
     background-color: #ce2127;
     
 }
+button:hover {
+    background-color: #ce2127;
+    color: white;
+}
 
+#callbtn {
+    width: 50vw;
+    background-color: #ce2127;
+    color: wheat;
+    margin: 2vh 23.5vw;
+    border-radius: 20px;
+
+}
 .card {
     width: 60vw;
     height: fit-content;
@@ -231,8 +246,8 @@ button.active {
     color: wheat;
 }
 .card p {
-    font-size: 0.9rem;
-    padding: 0 10px ;
+    font-size: 0.85rem;
+    padding: 0 10px;
     margin-top: 5px;
     
 }
@@ -254,7 +269,7 @@ button.active {
   
   .tab-pane { 
     display: none;
-    margin-top: 2.5rem;
+    
   }
   
   .tab-pane.active { 
@@ -271,6 +286,13 @@ button.active {
 
 
 
+#chile {
+    display: none;
+    max-width: 30vw;
+    position: absolute;
+    z-index: -1;
+    margin: 0vh 35vw 0 35vw;
+}
 
 
 
@@ -287,11 +309,63 @@ button.active {
 
 
 
-
-  
-
-
-
+  @media only screen and (min-width: 600px){
+      
+      .card {
+          width: 40vw;
+          float: left;
+          height: 55vh;
+          margin: 0 0 0 5.5vw;
+          margin-bottom: 1rem;
+          background-color: #845d3c;
+          text-align: center;
+          /* padding: 5px; */
+          border-radius: 4px;
+          border: 2px solid #ce2127;
+          color: wheat;
+      }
+      .card p {
+          font-size: 0.8rem;
+      }
+      
+      .card img{
+          width: 40vw;
+          height: 25vh;
+          margin: 0;
+          padding-top: 0;
+      }
+      #callbtn{
+          width: 40vw;
+          margin: 2vh 30vw;
+      }  
+}
+  @media only screen and (min-width: 750px){
+    .card {
+        width: 30vw;
+        float: left;
+        
+        margin: 0 1vw 0 1vw;
+        margin-bottom: 1rem;
+        background-color: #845d3c;
+        text-align: center;
+        /* padding: 5px; */
+        border-radius: 4px;
+        border: 2px solid #ce2127;
+        color: wheat;
+    }
+    
+    .card img{
+        width: 30vw;
+        height: 25vh;
+        margin: 0;
+        padding-top: 0;
+    }
+    #callbtn{
+       
+        width: 30vw;
+        margin: 2vh 34vw;
+    }  
+  }
 
 @media only screen and (min-width: 847px){
     #hamburger{
@@ -306,4 +380,60 @@ button.active {
     li.links{ 
         display: inline-block;
     }
+    #callbtn {
+        display: none;
+    }
+    .card{
+        margin-top: 2vh;
+    }
+    ul#nav-tab {
+        margin: 0 25vw 0 25vw;
+        width: 50vw;
+        margin-top: 25vh;
+    }
+    #chile {
+        display: block;
+    }
+}
+@media only screen and (min-width: 950px) {
+    .card {
+        width: 22vw;
+        float: left;
+        
+        margin: 2vh 0.5vw 0 1.6vw;
+        margin-bottom: 1rem;
+        background-color: #845d3c;
+        text-align: center;
+        /* padding: 5px; */
+        border-radius: 4px;
+        border: 2px solid #ce2127;
+        color: wheat;
+    }
+    
+    .card img{
+        width: 22vw;
+        height: 25vh;
+        margin: 0;
+        padding-top: 0;
+    }
+    #callbtn{
+        display: none;
+    }  
+    .card p {
+        font-size: 0.75rem;
+    }
+   
+}
+@media only screen and (min-width: 1015px){
+    #chile{
+    max-width: 24vw;
+    position: absolute;
+    z-index: -1;
+    margin: 0vh 38vw 0 38vw;
+    }
+}
+@media only screen and (min-width: 1200px){
+.card p {
+    font-size: 0.9rem;
+}
 }

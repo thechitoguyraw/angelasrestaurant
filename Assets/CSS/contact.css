@@ -298,7 +298,7 @@ hr {
     color: #4267b2;
 
 }
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 500px) and (max-width: 599px){
     form {
         background-color: #845d3c;
         margin: 2.5% auto;
@@ -318,7 +318,7 @@ hr {
         font-size: 0.8rem;
     }
 }
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) and (max-width:724px){
     form {
         background-color: #845d3c;
         margin: 2.5% auto;
@@ -335,7 +335,7 @@ hr {
         width: 45vw;
     }
 }
-@media only screen and (min-width: 725px){
+@media only screen and (min-width: 725px) and (max-width: 846px){
     form {
         background-color: #845d3c;
         margin: 2.5% auto;
@@ -352,7 +352,7 @@ hr {
         width: 40vw;
     }
 }
-@media only screen and (min-width: 847px){
+@media only screen and (min-width: 847px) and (max-width:1099px){
     form {
         background-color: #845d3c;
         margin: 2.5% auto;

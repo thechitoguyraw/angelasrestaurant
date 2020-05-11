@@ -12,6 +12,7 @@ a {
     color: #ce2127;
 }
 
+
 /* Nav CSS */
 nav {
     width: 100%;
@@ -85,7 +86,7 @@ ul {
 
 .carousel {
     padding: 0;
-    margin: 1% 15% 1% 15%;
+    margin: 1% 15%;
 }
 
 .slide {
@@ -153,20 +154,17 @@ h3 {
 
 }
 
-button a {
+a button {
     color: white;
     text-decoration: none;
 
 }
 
-button a:hover {
-    color: wheat;
-
-}
-
 button:hover {
-    background-color: rgb(155, 7, 7);
-
+    background-color: #f9bd69;
+    color: #ce2127;
+    cursor: pointer;
+    border: 1px solid #ce2127;
 }
 
 .pcrds {
@@ -260,6 +258,8 @@ footer h5 {
 
 footer h4 a:hover {
     color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
 
 }
 
@@ -285,7 +285,6 @@ hr {
     color: #4267b2;
 
 }
-
 
 /* Extra small devices */
 
@@ -360,7 +359,7 @@ hr {
     }
 
     #about {
-        width: 40%;
+        width: 45%;
 
     }
 
@@ -379,7 +378,6 @@ hr {
         margin-bottom: 2%;
         
     }
-
 }
 
 /* Small devices */
@@ -450,7 +448,7 @@ hr {
     .card {
         width: 28.5%;
         height: 100%;
-        margin: 1.5% 1% 1.5% 1%;
+        margin: 1.5% 1%;
     }
 
     #star {
@@ -538,7 +536,7 @@ hr {
     .card {
         width: 24%;
         height: 100%;
-        margin: 1.5% 0.2% 1.5% 0.2%;
+        margin: 1.5% 0.2%;
     }
 
     .pcard {

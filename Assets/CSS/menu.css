@@ -328,6 +328,17 @@ button:hover {
     margin: 0vh 35vw 0 35vw;
 
 }
+@media only screen and (min-width: 500px) {
+    #callbtn {
+    width: 50vw;
+    background-color: #ce2127;
+    color: wheat;
+    margin: 2vh 23vw;
+    border-radius: 20px;
+
+}
+
+}
 
   @media only screen and (min-width: 600px){
       

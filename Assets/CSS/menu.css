@@ -280,6 +280,7 @@ button:hover {
     font-size: 1.4vh;
     padding: 0 10px;
     margin-top: 5px;
+    text-align: justify;
     
 }
 
@@ -306,7 +307,7 @@ button:hover {
 
 #combos .card p {
     font-size: 1.3vh;
-    text-align: none;
+    
 }
 
   .tab-pane { 

@@ -300,12 +300,12 @@ button:hover {
 }
 
 #combos .foodtitle {
-    font-size: 3vw;
+    font-size: 2.75vw;
 
 }
 
 #combos .card p {
-    font-size: 1.35vh;
+    font-size: 1.3vh;
 
 }
 
@@ -519,12 +519,12 @@ button:hover {
     }
 
     #combos .foodtitle {
-        font-size: 1vw;
+        font-size: 0.75vw;
 
     }
 
     #combos .card p {
-        font-size: 1.6vh;
+        font-size: 1.65vh;
 
     }
 

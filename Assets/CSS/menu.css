@@ -277,7 +277,7 @@ button:hover {
 }
 
 .card p {
-    font-size: 1.75vh;
+    font-size: 1.55vh;
     padding: 0 10px;
     margin-top: 5px;
     
@@ -295,17 +295,17 @@ button:hover {
     color: #f9bd69;
     margin: 0;
     margin-top: 4px;
-    font-size: 4vw;
+    font-size: 3.5vw;
       
 }
 
 #combos .foodtitle {
-    font-size: 2.5vw;
+    font-size: 3vw;
 
 }
 
 #combos .card p {
-    font-size: 1.6vh;
+    font-size: 1.38vh;
 
 }
 

@@ -306,7 +306,7 @@ button:hover {
 
 #combos .card p {
     font-size: 1.3vh;
-
+    text-align: none;
 }
 
   .tab-pane { 

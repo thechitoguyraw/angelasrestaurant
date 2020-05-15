@@ -281,7 +281,7 @@ button:hover {
     padding: 0 5px;
     margin-top: 10px;
     text-align: justify;
-    word-break: break-word
+    word-spacing: -2px;
     
     
 }

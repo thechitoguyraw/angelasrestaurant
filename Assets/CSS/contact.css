@@ -156,6 +156,9 @@ input, textarea {
     background-color: #f9bd69;
     border-radius: 3.5px;
 }
+textarea::placeholder{
+    color: white;
+}
 
 textarea {
     font-size: 0.7rem;
@@ -164,7 +167,7 @@ textarea {
     margin: 0.5rem 0;
     padding: 5px 0 0 2.5px;
     resize: none;
-    color: white;
+   
     
 }
 #submit {

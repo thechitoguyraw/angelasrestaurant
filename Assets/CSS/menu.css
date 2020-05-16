@@ -280,7 +280,9 @@ button:hover {
     font-size: 1.4vh;
     padding: 0 5px;
     margin-top: 10px;
-    text-align: justify;
+    text-align: center;
+    white-space: break-spaces;
+    
     
     
     

@@ -155,6 +155,7 @@ input, textarea {
     border: 1px solid #ce2127;
     background-color: #f9bd69;
     border-radius: 3.5px;
+    color: white;
 }
 textarea::placeholder{
     color: white;

@@ -86,7 +86,7 @@ ul {
 
 .carousel {
     padding: 0;
-    margin: 1% 15%;
+    margin: 1vw 20vw;
 }
 
 .slide {
@@ -209,7 +209,7 @@ h4 {
     border: 2px solid #ce2127;
     text-align: center;
     padding: 0 0 10px 0;
-    margin: 0 14.3% 1.5% 15%;
+    margin: 0 20vw 1.5% 19vw;
     color: rgb(243, 240, 240);
 
 }
